@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 30;
+    box-sizing: border-box;
+    background-size: cover;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("https://cdn.pixabay.com/photo/2014/09/19/12/30/pencils-452238_1280.jpg");
+    color: white;
+    font-style:
+}
+
+.contenitore{
+  width: 1200px;
+  height: 100vh;
+  margin: auto;
+}
+
+.logogmail{
+    width: 100px;
+    vertical-align: middle;
+}
+
+.gmailinbox{
+    vertical-align: middle;
+    float: right;
+    width: 92.8%;
+    padding: 17px;
+    display: inline-block;
+    font-size: 25px;
+
+}
+
+#numero-cerchiato{
+  background-color: red;
+  border-radius: 50%;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.read{
+  background-color: #FFEBCD;
+}
+
+.unread{
+  background-color: #FFFAF0;
+}
+
+.oggetto{
+  color: black;
+}
+
+.body{
+  color: grey;
+}
+
+.star{
+  color: orange;
+}
+
+.row{
+  color: black;
+}
+
+.row-left{
+  display: inline-block;
+  width: 30%;
+}
+
+.row-right{
+  display: inline-block;
+  width: 68%
+}
+
+#footergmail{
+  font-size: 30px;
+}
+
+footer{
+  text-align: center;
+}
